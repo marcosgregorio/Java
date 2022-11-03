@@ -1,11 +1,14 @@
 package BankAccountPT2;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Account {
+public abstract class Account 
+{
     protected int numero;
     protected double saldo;
     protected String nome;
+    protected ArrayList<CashFlow> movimentacao;
 
     public Account() {
         this.saldo = 0;
@@ -35,8 +38,9 @@ public class Account {
         );
     }
 
-
-    public void fazManutencao() {
+    public void extrato() {
         
     }
+
+    public abstract void fazManutencao();
 }

@@ -3,7 +3,8 @@ package BankAccountPT2;
 /**
  * Investment
  */
-public class Investiment extends Account{
+public class Investiment extends Account
+{
     protected double taxaRendimento;
     
     public void fazManutencao() {
