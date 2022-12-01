@@ -1,6 +1,7 @@
 package BankAccount;
 
-public class SpecialAccount extends Account {
+public class SpecialAccount extends Account 
+{
     protected double limite;
     protected double taxaManutencao;
 
